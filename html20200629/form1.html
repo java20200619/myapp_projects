@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	
+
+	<head>
+		
+		<meta charset="utf-8">
+		
+		<title>表单组件</title>
+		
+		
+	</head>
+	
+	
+	<body>
+		
+		
+		<form action="http://www.baidu.com" method="get" >
+		
+		
+			<!-- readonly不能编辑但参与数据提交，disabled组件不能编辑，不参与数据提交 -->
+		
+		
+				<ul style="line-height: 50px;list-style: none;">
+					<li>
+						用户名：<input type="text" name="user" readonly="readonly"placeholder="请输入用户名" value="请输入用户名" title="您的注册用户名"  />
+						
+					</li>
+					<li>
+						密 &nbsp;  码：<input type="password" name="pwd" placeholder="密码"  value="" />
+					</li>
+					
+					<li>
+						性 &nbsp; 别：
+						
+						<label> <input type="radio" value="1" name="sex" /> 男 </label>
+						
+						<label> <input type="radio" value="2" name="sex" /> 女</label>
+						
+					</li>
+					<li>
+						兴 &nbsp; 趣：
+						<label><input type="checkbox" name="intres" value="1" />琴</label>
+						<label><input type="checkbox" name="intres" value="2" />棋</label>
+						<label><input type="checkbox" name="intres" value="3" />书</label>
+						<label><input type="checkbox" name="intres" value="4" />画</label>
+						
+					</li>
+					<li>
+						
+					</li>
+					
+					<li>
+						头像图片：<input type="file" />
+						<input type="hidden" name="ids" value="370702222222222"/>
+					</li>
+					
+				</ul>
+		
+		
+		
+		
+		
+				<button>ok</button>
+		
+		
+		
+		
+			
+			
+			
+		</form>
+		
+	</body>
+	
+	<script>
+		var index=50;
+		window.setInterval(function(){
+			index+=10;
+			document.getElementById("aa").value=index;
+			
+		},1000);
+		
+		
+	</script>
+	
+</html>
