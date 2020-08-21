@@ -4,7 +4,7 @@ public class AppService1_zxh {
 
 	
 	public void sayHI(){
-		System.out.println("两包辣条到此二游  ");
+		System.out.println("两包辣条到此二游 ");
 		
 	}
 }
